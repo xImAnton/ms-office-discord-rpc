@@ -1,8 +1,8 @@
 ﻿using System;
-using static office_rpc.WinAPIHelper;
+using static OfficeRPC.WinAPIHelper;
 using HWND = System.IntPtr;
 
-namespace office_rpc {
+namespace OfficeRPC {
     public abstract class OfficeManager {
         public static OfficeWindow GetWindow() {
             OfficeWindow window = null;

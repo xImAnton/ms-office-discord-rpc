@@ -1,4 +1,4 @@
-﻿namespace office_rpc {
+﻿namespace OfficeRPC {
     public enum OfficeWindowType {
         WORD,
         EXCEL

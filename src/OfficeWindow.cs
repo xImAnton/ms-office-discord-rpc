@@ -1,4 +1,4 @@
-﻿namespace office_rpc {
+﻿namespace OfficeRPC {
     public class OfficeWindow {
         public string DocumentName { get; }
         public OfficeWindowType WindowType { get; }

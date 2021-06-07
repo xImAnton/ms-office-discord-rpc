@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using DiscordRPC.Logging;
 
-namespace office_rpc {
+namespace OfficeRPC {
     public class DiscordClient {
         private static readonly Dictionary<OfficeWindowType, string> WINDOW_NAMES = new Dictionary<OfficeWindowType, string>() {
             {OfficeWindowType.WORD, "Word"},

@@ -2,7 +2,7 @@
 using System.Text;
 using HWND = System.IntPtr;
 
-namespace office_rpc {
+namespace OfficeRPC {
     public abstract class WinAPIHelper {
         public delegate bool EnumWindowsProc(HWND hWnd, int lParam);
         
