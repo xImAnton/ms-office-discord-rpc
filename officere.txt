@@ -1,0 +1,21 @@
+WORD::
+
+Class::OpusApp
+  Class::_WwF
+    Class::_WwB -- title = Document Name
+
+EXCEL::
+
+Class::XLMAIN
+  Class::XLDESK
+    Class::EXCEL7 -- title = Document Name
+
+POWERPOINT::
+-- NOT SO EASY
+
+ACCESS::
+Class:OMain
+  Class::MDIClient -- title = current Table
+
+PUBLISHER::
+-- NOT SO EASY
