@@ -5,12 +5,12 @@ using DiscordRPC.Logging;
 
 namespace OfficeRPC {
     public class DiscordClient {
-        private static readonly Dictionary<OfficeWindowType, string> WINDOW_NAMES = new Dictionary<OfficeWindowType, string>() {
+        private static readonly Dictionary<OfficeWindowType, string> WINDOW_NAMES = new Dictionary<OfficeWindowType, string> {
             {OfficeWindowType.WORD, "Word"},
             {OfficeWindowType.EXCEL, "Excel"}
         };
 
-        private static readonly Dictionary<OfficeWindowType, string> LARGE_IMAGE_KEYS = new Dictionary<OfficeWindowType, string>() {
+        private static readonly Dictionary<OfficeWindowType, string> LARGE_IMAGE_KEYS = new Dictionary<OfficeWindowType, string> {
             {OfficeWindowType.WORD, "word"},
             {OfficeWindowType.EXCEL, "excel"}
         };

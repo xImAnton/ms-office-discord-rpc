@@ -3,6 +3,9 @@
 namespace OfficeRPC {
     class Program {
         static void Main(string[] args) {
+            // hide console when shown
+            WinAPIHelper.HideConsole();
+            
             var client = new DiscordClient();
             client.Init();
 

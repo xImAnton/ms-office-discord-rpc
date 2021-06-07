@@ -34,6 +34,22 @@ namespace OfficeRPC {
             GetClassName(hWnd, builder, length + 1);
             return builder.ToString();
         }
-        
+
+        [DllImport("KERNEL32.DLL")]
+        private static extern HWND GetConsoleWindow();
+
+        [DllImport("USER32.DLL")]
+        private static extern bool ShowWindow(HWND hWnd, int nCmdShow);
+
+        public static void HideConsole() {
+            HWND console = GetConsoleWindow();
+            
+            if (console == HWND.Zero) {
+                return;
+            }
+            
+            ShowWindow(console, 0);
+        }
+
     }
 }

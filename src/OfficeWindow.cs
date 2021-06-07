@@ -7,11 +7,5 @@
             DocumentName = documentName;
             WindowType = type;
         }
-
-        public override bool Equals(object? obj) {
-            if (obj == null) return false;
-            if (obj as OfficeWindow == null) return false;
-            return ((OfficeWindow)obj).WindowType == WindowType && ((OfficeWindow)obj).DocumentName == DocumentName;
-        }
     }
 }
